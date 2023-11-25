@@ -31,6 +31,10 @@ urlpatterns = [
     # Store app
 
     path('', include('store.urls')),
+    
+   # Cart app
+
+    path('cart/', include('cart.urls')),
 
 ]
 
